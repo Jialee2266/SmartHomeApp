@@ -1,11 +1,8 @@
 package com.example.smarthomeapp;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.content.res.Resources;
 import android.net.Uri;
@@ -51,7 +48,5 @@ public class VideoPlayer extends AppCompatActivity {
                 startActivity(intent);;
             }
         });
-
-
     }
 }
