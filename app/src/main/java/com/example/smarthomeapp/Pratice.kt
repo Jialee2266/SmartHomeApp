@@ -2,8 +2,7 @@ package com.example.smarthomeapp
 
 import android.Manifest
 import android.annotation.SuppressLint
-import android.content.ContentValues
-import android.content.Intent
+import android.content.*
 import android.content.pm.PackageManager
 import android.os.*
 import android.provider.MediaStore
@@ -19,15 +18,10 @@ import androidx.core.content.ContextCompat
 import androidx.core.content.PermissionChecker
 import com.example.smarthomeapp.databinding.ActivityPraticeBinding
 import okhttp3.MediaType.Companion.toMediaType
-import okhttp3.MultipartBody
-import okhttp3.OkHttpClient
-import okhttp3.Request
+import okhttp3.*
 import okhttp3.RequestBody.Companion.asRequestBody
-import java.io.File
-import java.io.IOException
-import java.util.*
-import java.util.concurrent.ExecutorService
-import java.util.concurrent.Executors
+import java.io.*
+import java.util.concurrent.*
 
 //Screen 3: Practice Page Allow User to Record Gestures
 class Pratice : AppCompatActivity() {

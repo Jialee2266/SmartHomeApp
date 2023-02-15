@@ -1,17 +1,12 @@
 package com.example.smarthomeapp;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.AutoCompleteTextView;
-
+import android.widget.*;
 import java.lang.reflect.Field;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -36,12 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, VideoPlayer.class);
                 intent.putExtra("key", value);
                 startActivity(intent);
-
             }
         });
-
-
-
-
     }
 }
