@@ -40,7 +40,7 @@ The Gesture Recorder application includes the following features:
     * Running on all addresses (0.0.0.0)
     * Running on http://127.0.0.1:5000
     * Running on http://19*.***.*.**:5000 
-    *  Change line 244 of [Pratice.kt](https://github.com/jaden-letsgo/SmartHomeApp/blob/main/app/src/main/java/com/example/smarthomeapp/Pratice.kt) to the ip shown in your device
+     *  Change line 244 of [Pratice.kt](https://github.com/jaden-letsgo/SmartHomeApp/blob/main/app/src/main/java/com/example/smarthomeapp/Pratice.kt) to the ip shown in your device
 
 ## Run
 1. Ensure flask_server is running
