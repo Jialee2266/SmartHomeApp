@@ -27,20 +27,20 @@ The Gesture Recorder application includes the following features:
 
 ## Setup
 * Android Studio:
-** Prefer Device Emulator Setup:
-*** Pixel 5, API 31, Back Camera: Webcam, Ram: 4 GB+, Internal Storage: 1 GB+
+  * Prefer Device Emulator Setup:
+    * Pixel 5, API 31, Back Camera: Webcam, Ram: 4 GB+, Internal Storage: 1 GB+
 
 * Flask:
-** Change line 9 and 25 of the [flask_server](https://github.com/jaden-letsgo/SmartHomeApp/blob/main/flask_server.py) file to your designated folder path
+  * Change line 9 and 25 of the [flask_server](https://github.com/jaden-letsgo/SmartHomeApp/blob/main/flask_server.py) file to your designated folder path
 ** Please follow [Flask offical guide](https://flask.palletsprojects.com/en/2.2.x/installation/#virtual-environments
 ) to setup a virtual environments to run flask_server
 
 * Application Code:
-** After runing flask_server, an output should be shown as follow:
-*** Running on all addresses (0.0.0.0)
-*** Running on http://127.0.0.1:5000
-*** Running on http://19*.***.*.**:5000 
-**** Change line 244 of [Pratice.kt](https://github.com/jaden-letsgo/SmartHomeApp/blob/main/app/src/main/java/com/example/smarthomeapp/Pratice.kt) to the ip shown in your device
+   * After runing flask_server, an output should be shown as follow:
+    * Running on all addresses (0.0.0.0)
+    * Running on http://127.0.0.1:5000
+    * Running on http://19*.***.*.**:5000 
+    *  Change line 244 of [Pratice.kt](https://github.com/jaden-letsgo/SmartHomeApp/blob/main/app/src/main/java/com/example/smarthomeapp/Pratice.kt) to the ip shown in your device
 
 ## Run
 1. Ensure flask_server is running
@@ -59,7 +59,7 @@ To use the Smart Home Application, follow these steps:
 
 ### Recording Page
 * Pressing Record button will start recoring
-** Recording is timed and will be ended in 5 seconds
+   * Recording is timed and will be ended in 5 seconds
 * Press Record to repeat recording process
 * Press Done to go back to the first page to select next guesture
 
