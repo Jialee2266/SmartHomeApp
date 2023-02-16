@@ -20,6 +20,19 @@ The Gesture Recorder application includes the following features:
 * Capability to label the gesture being performed in the video
 * Save the recorded videos to a designated folder using Flask to mimic a remote server
 
+## Screenshots
+
+[<img src="/README/Landing.jpeg" align="center"
+width="60"
+    hspace="10" vspace="10">](/README/Landing.jpeg)
+[<img src="/README/View.jpeg" align="center"
+width="60"
+    hspace="10" vspace="10">](/README/View.jpeg)
+    
+[<img src="/README/Record.jpeg" align="center"
+width="60"
+    hspace="10" vspace="10">](/README/Record.jpeg)
+
 ## Requirement
 * [Android Studio](https://developer.android.com/)
 * [Python](https://www.python.org/)
@@ -52,7 +65,8 @@ The Gesture Recorder application includes the following features:
 
 ## Example Video Viewing Page
 * The video should play automatically
-* Click the replay button to replay the video
+* Click the Replay button to replay the video
+* Click Practice button to go to recording page
 
 ## Recording Page
 * Pressing the record button will start recording
