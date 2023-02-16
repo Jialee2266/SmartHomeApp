@@ -241,7 +241,7 @@ class Pratice : AppCompatActivity() {
 
         //Build request to internet ip
         val request = Request.Builder()
-            .url("http://192.168.0.25:5000/")
+            .url("http://19*.***.*.**:5000/")
             .post(requestBody)
             .build()
 
