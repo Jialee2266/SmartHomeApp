@@ -32,7 +32,7 @@ The Gesture Recorder application includes the following features:
 
 * Flask:
   * Change line 9 and 25 of the [flask_server](https://github.com/jaden-letsgo/SmartHomeApp/blob/main/flask_server.py) file to your designated folder path
-** Please follow [Flask offical guide](https://flask.palletsprojects.com/en/2.2.x/installation/#virtual-environments
+  * Please follow [Flask offical guide](https://flask.palletsprojects.com/en/2.2.x/installation/#virtual-environments
 ) to setup a virtual environments to run flask_server
 
 * Application Code:
