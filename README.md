@@ -9,13 +9,13 @@ Jiahui Li\
 The purpose of this project is to develop a mobile application that can record labeled gesture videos for training machine learning models. This project is being completed as a requirement for the ASU MCS 535 course curriculum.
 
 ## Background
-The Gesture Recorder application is designed to record labeled gesture videos using an Android mobile device or tablet. The recorded videos will be used as training data for a machine learning model that will be developed in part two of this project using TensorFlow. The application has a simple interface that enables users to start and stop video recording, label the gesture they are performing, and save the video to a designated folder using Flask to mimic a remote server. 
+The Gesture Recorder app is designed to record labeled gesture videos using an Android mobile device or tablet. The recorded videos are used to train a machine learning model that will be developed in part two of the project using TensorFlow. The app has a simple interface that enables users to start and stop video recording, label the gesture they are performing, and save the video to a designated folder using Flask to mimic a remote server.
 
 ## Features
 The Gesture Recorder application includes the following features:
 
 * Simple interface for easy recording and labeling of gesture videos
-* View an example guesture with the ability to replay the example video
+* View an example gesture with the ability to replay the example video
 * A record button and a done button for video recording
 * Capability to label the gesture being performed in the video
 * Save the recorded videos to a designated folder using Flask to mimic a remote server
@@ -47,21 +47,18 @@ The Gesture Recorder application includes the following features:
 2. Clone the repository: git clone https://github.com/jaden-letsgo/SmartHomeApp.git to Andriod Studio
 3. Build and run in Andriod Studio with the appropriate device emulator
 
-## Usage
-To use the Smart Home Application, follow these steps:
+## Landing Page
+* From the drop-down menu, select the desired gesture to record
 
-### Landing Page
-* From the drop down menu, select the desire guesture to record
+## Example Video Viewing Page
+* The video should play automatically
+* Click the replay button to replay the video
 
-### Example Video Viewing Page
-* The Video should play automically
-* Click replay button to replay video
-
-### Recording Page
-* Pressing Record button will start recoring
-   * Recording is timed and will be ended in 5 seconds
-* Press Record to repeat recording process
-* Press Done to go back to the first page to select next guesture
+## Recording Page
+* Pressing the record button will start recording
+ * Recording is timed and will end in 5 seconds
+* Press record to repeat the recording process
+* Press done to go back to the first page to select the next gesture
 
 ## Contributing
 
