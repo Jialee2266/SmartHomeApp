@@ -22,15 +22,15 @@ The Gesture Recorder application includes the following features:
 
 ## Screenshots
 
-[<img src="/README/Landing.jpeg" 
-width="60"
+[<img src="/README/Landing.jpeg" align="center"
+width="100"
     hspace="10" vspace="10">](/README/Landing.jpeg)
-[<img src="/README/View.jpeg"
-width="60"
+[<img src="/README/View.jpeg" align="center"
+width="100"
     hspace="10" vspace="10">](/README/View.jpeg)
     
-[<img src="/README/Record.jpeg"
-width="60"
+[<img src="/README/Record.jpeg" align="center"
+width="100"
     hspace="10" vspace="10">](/README/Record.jpeg)
 
 ## Requirement
